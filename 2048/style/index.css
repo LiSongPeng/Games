@@ -1,0 +1,82 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+ font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+#game{
+	margin:30px auto;
+	width:305px;
+	height:auto;
+}
+#info{
+width:305px;
+height:105px;
+}
+#firstLayer{
+  width:305px;
+  height:70px;
+}
+.first{
+	list-style:none;
+	float:left;
+	width:90px;
+	height:70px;
+	border-radius:6%;
+	background-color:#5B99F4;
+	text-align:center;
+}
+#secondLayer{
+  width:305px;
+  height:30px;
+  margin-top:5px;
+  text-align:center;
+}
+#control{
+   width:80px;
+   height:30px;
+   background-color:#5B99F4;
+}
+#gameBody{
+margin-top:20px;
+width:305px;
+height:305px;
+border-radius:2%;
+background-color:#666;
+}
+.backTile{
+	margin-left:5px;
+	margin-top:5px;
+	background-color:#999;
+	border-radius:6%;
+	width:70px;
+	height:70px;
+	float:left;
+}
+#controlPage{
+width:305px;
+height:305px;
+background-color:#5B99F4;
+border-radius:2%;
+text-align:center;
+}
+.second{
+	width:100px;
+height:50px;
+background-color:#698BCB;
+border-radius:6%;
+color:white;
+}
+.tile{
+width:70px;
+height:70px;
+border-radius:6%;
+color:white;
+font-size:48px;
+text-align:center;
+line-height:70px;
+position:absolute;
+opacity:0;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打砖块游戏</title>
+    <style>
+        #container {
+            margin: 0 auto;
+            width: 500px;
+        }
+        #canvas{
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div>
+        <button id="start">开始</button>
+        <button id="restart">重新开始</button>
+    </div>
+    <div>
+        <canvas width="500px" height="500px" id="canvas"></canvas>
+    </div>
+</div>
+</body>
+<script src="../res/js/easeljs-0.8.2.min.js"></script>
+<script src="../res/js/tweenjs-0.6.2.min.js"></script>
+<script src="brick.js"></script>
+</html>
