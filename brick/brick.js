@@ -45,6 +45,7 @@
                     this.stage.addChild(each);
                 }
             }
+            //绘制砖块
             for (i = 0; i < this.rowNum; i++) {
                 for (j = 0; j < this.columNum; j++) {
                     each = new createjs.Shape();
@@ -53,6 +54,7 @@
                     this.stage.addChild(each);
                 }
             }
+            //绘制撞击球
             each = new createjs.Shape();
             each.graphics.beginFill('red').drawRect(9 * (this.brickSize + 1), 16 * (this.brickSize + 1), this.brickSize, this.brickSize);
             this.ball.pic = each;
@@ -61,6 +63,7 @@
             this.ball.x = 9;
             this.ball.y = 16;
             this.stage.addChild(each);
+            //绘制挡板
             each = new createjs.Shape();
             each.graphics.beginFill('red').drawRect(7 * (this.brickSize + 1), 17 * (this.brickSize + 1), 6 * (this.brickSize + 1), this.brickSize);
             this.stage.addChild(each);
